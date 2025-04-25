@@ -1,0 +1,32 @@
+<header
+  class="flex flex-wrap gap-10 items-center justify-between w-container pt-4 border-b-1 border-solid border-dark-gray border-opacity-50"
+>
+  <a href="/">
+    <span class="font-bold text-3xl hover:text-brick">Rakesh Gupta</span>
+  </a>
+  <nav>
+    <ul class="flex flex-wrap gap-4 md:gap-6 list-none">
+      {{ $cur := .}} {{ range $.Site.Menus.header}} {{ $active := in
+      $cur.Permalink .URL }}
+
+      <li>
+        <a
+          class="  underline-offset-2 decoration-from-font text-lg  {{ if $active}} text-brick hover:text-brick  {{ else }}  hover:text-dark-gray active:text-dark-gray text-dark hover:underline {{end }} "
+          href="{{ .URL }}"
+        >
+          {{ .Name }}
+        </a>
+      </li>
+      {{ end }}
+      <li>
+        <a
+          href="{{ .Site.BaseURL }}/index.xml"
+          class="underline-offset-2 decoration-from-font text-lg hover:text-dark-gray active:text-dark-gray text-dark hover:underline"
+          title="Subscribe to feed"
+        >
+          Feed
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>

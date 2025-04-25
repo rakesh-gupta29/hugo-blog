@@ -1,0 +1,36 @@
+{{ partial "head.html" . }} {{ partial "header.html" . }}
+
+<body class="bg-light-gray">
+  <main class="w-container pt-14 pb-20">
+    <section class="text-center px-3 space-y-3 py-5">
+      <h1>{{.Title }}</h1>
+      <h5>From <span class="font-bold text-black">{{ upper .Params.author}}</span></h5>
+      <h5>{{ upper (index .Params.tags 0 ) }} - {{ .Params.date | dateFormat "2 January 2006" }}</h5>
+    </section>
+    {{ $name := .Params.tags }}
+  {{ partial "share_btns.html" .}}
+  
+
+    <section
+      class="content pt-20 pb-20 mb-10 border-b-1 border-solid border-dark-gray border-opacity-50"
+    >
+      {{.Content }}
+    </section>
+
+    {{ $author := .Params.author }} {{ $tags := .Params.tags }} {{ $relatedBlogs
+    := slice }} {{ range .Site.Pages }} {{ if and (eq .Params.author $author)
+    (ne .Permalink $.Permalink) }} {{ $relatedBlogs = $relatedBlogs | append .
+    }} {{ end }} {{ end }} {{ if gt (len $relatedBlogs) 0 }}
+    <div class="related-blogs pb-10">
+      <h3 class="mb-5 font-semibold bg-white bg-opacity-40 rounded-lg py-4 pl-4">
+        More from author <span class="text-brick">"{{ upper $author }}"</span>
+      </h3>
+      <ul class="space-y-7">
+        {{ range first 5 $relatedBlogs }} {{ partial "post.html" .}} {{ end }}
+      </ul>
+    </div>
+    {{ end }} 
+    
+  </main>
+  {{ partial "footer.html" .}}
+</body>

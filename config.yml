@@ -1,0 +1,53 @@
+baseURL: "https://example.com"
+languageCode: "en-us"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
+
+paginate: 10
+title: "clone blog website"
+params:
+  description: desc for clone blog website
+  tags: ["list", "of", "keywords", "golang"]
+  favicon: https://res.cloudinary.com/rakesh-gupta/image/upload/v1684476786/github-logo_icon-icons.com_73546_voaw1h.ico
+  album: https://res.cloudinary.com/rakesh-gupta/image/upload/v1680082086/output_ritppq.webp
+  mainSections: ["blogs", "news"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
+outputs:
+  home: ["HTML", "RSS"]
+author:
+  name: rakesh gupta
+  email: rakesh.rkgupta29@gmail.com
+  phone: 1234567890
+  linkedin: https://www.linkedin.com/in/rakesh-gupta29/
+  twitter: https://twitter.com/rakesh_gupta29
+  github: https://github.com/rakesh-gupta29
+  profile: https://res.cloudinary.com/rakesh-gupta/image/upload/v1672731139/logo_n4vcam.svg
+  profileDesc: I am a Frontend Developer
+
+taxonomies:
+  tag: tags
+  author: authors
+
+menu:
+  header:
+    - identifier: blog
+      name: Blog
+      url: /blogs
+      weight: 1
+    - identifier: news
+      name: News
+      url: /news
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 3
+    - identifier: authors
+      name: Authors
+      url: /authors
+      weight: 4

@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+
+{{ partial "head.html" .}} {{ partial "seo.html" .}}
+<body class="bg-light-gray">
+
+
+    {{ partial "header.html" .}}
+	<main class="w-container pt-14 pb-20">
+		<section class="text-center px-3 space-y-3 py-5">
+		 {{ $name := lower  .Name  }}
+			{{ $titles := .Site.Data.category }}
+			{{ range $titles }}
+			{{ if eq .term $name }}
+				<span>{{ .tagline }}</span>
+				<h1 class="max-w-3xl  mx-auto ">{{.title }}</h1>
+			{{ end }}
+			{{ end }}
+			
+		</section>
+		<section class="space-y-4 py-12 md:py-16 lg:py-20">
+		{{ $data := .Data }}
+		<ul class="list-none  text-xl capitalize space-y-2">
+		{{ if eq .RelPermalink "/authors/" }}
+			{{ range $index, $value := .Data.Terms.ByCount }}
+				<li class="before:float-left before:block before:content-['☆'] before:font-bold before:text-black " >
+					<a href="{{ $.Site.BaseURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="pl-2  hover:text-brick underline  decoration-from-font   underline-offset-4">{{ $value.Name }} - {{ $value.Count }}</a>
+				</li>
+			{{ end }}
+		{{ else }}
+			{{ range $index, $value := .Data.Terms.ByCount }}
+				<li class="before:float-left before:block before:content-['☆'] before:font-bold before:text-dark before:text-dark-gray" >
+					<a href="{{ $.Site.BaseURL }}/{{ $data.Plural }}/{{ $value.Name | urlize }}/" class="pl-2  hover:text-brick underline  decoration-from-font   underline-offset-4">{{ $value.Name }} - {{ $value.Count }}</a>
+				</li>	
+			{{ end }}
+		{{ end }}
+		</ul>
+		</section>
+	</main>
+	
+	{{ partial "footer.html" .}}
+	 
+</body>
+</html>
+
