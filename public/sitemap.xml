@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/authors/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/blogs/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/blogs/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/hello-from-root/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/hello-from-root/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/tags/development/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/development/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/tags/empowerment/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/empowerment/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/news/beautiful-world/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/news/beautiful-world/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/authors/jasmeet/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/jasmeet/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/news/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/news/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/tags/motivation/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/motivation/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/tags/purpose/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/purpose/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/authors/rahul/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/rahul/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/authors/rakesh/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/rakesh/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/news/explain-simply/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/news/explain-simply/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/blogs/control-the-future/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/blogs/control-the-future/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://example.com/blogs/statistical-sanity/</loc>
+    <loc>https://hugo-blog-zeta-ten.vercel.app/blogs/statistical-sanity/</loc>
     <lastmod>2018-12-29T00:00:00+00:00</lastmod>
   </url>
 </urlset>
