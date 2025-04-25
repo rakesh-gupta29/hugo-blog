@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    },
+    {
+      "src": "/tags/(.*)",
+      "dest": "/tags/$1"
+    },
+    {
+      "src": "/authors/(.*)",
+      "dest": "/authors/$1"
+    },
+    {
+      "src": "/blogs/(.*)",
+      "dest": "/blogs/$1"
+    },
+    {
+      "src": "/news/(.*)",
+      "dest": "/news/$1"
+    }
+  ]
+}
