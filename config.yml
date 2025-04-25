@@ -1,12 +1,12 @@
-baseURL: "https://example.com"
+baseURL: "https://hugo-blog-zeta-ten.vercel.app/"
 languageCode: "en-us"
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: true
 
 paginate: 10
-title: "clone blog website"
+title: "blog website with hugo and tailwind css"
 params:
-  description: desc for clone blog website
+  description: static blog website with hugo and tailwind css
   tags: ["list", "of", "keywords", "golang"]
   favicon: https://res.cloudinary.com/rakesh-gupta/image/upload/v1684476786/github-logo_icon-icons.com_73546_voaw1h.ico
   album: https://res.cloudinary.com/rakesh-gupta/image/upload/v1680082086/output_ritppq.webp
@@ -16,7 +16,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-      
+
 outputs:
   home: ["HTML", "RSS"]
 author:
@@ -27,7 +27,7 @@ author:
   twitter: https://twitter.com/rakesh_gupta29
   github: https://github.com/rakesh-gupta29
   profile: https://res.cloudinary.com/rakesh-gupta/image/upload/v1672731139/logo_n4vcam.svg
-  profileDesc: I am a Frontend Developer
+  profileDesc: Developer
 
 taxonomies:
   tag: tags
