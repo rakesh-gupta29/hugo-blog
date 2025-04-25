@@ -2,6 +2,8 @@
 
 A responsive blog platform built with Hugo and Tailwind CSS, featuring content management, SEO optimization, and social integration.
 
+> **Note:** This project is still under active development and needs code cleanup. Some features may be incomplete or unstable.
+
 ## Core Features
 
 - Responsive design with Tailwind CSS
