@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/blogs/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/hello-from-root/</loc>
+    <loc>http://localhost:1313/hello-from-root/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/development/</loc>
+    <loc>http://localhost:1313/tags/development/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/empowerment/</loc>
+    <loc>http://localhost:1313/tags/empowerment/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/news/beautiful-world/</loc>
+    <loc>http://localhost:1313/news/beautiful-world/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/jasmeet/</loc>
+    <loc>http://localhost:1313/authors/jasmeet/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/news/</loc>
+    <loc>http://localhost:1313/news/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/motivation/</loc>
+    <loc>http://localhost:1313/tags/motivation/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/purpose/</loc>
+    <loc>http://localhost:1313/tags/purpose/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/rahul/</loc>
+    <loc>http://localhost:1313/authors/rahul/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/authors/rakesh/</loc>
+    <loc>http://localhost:1313/authors/rakesh/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/news/explain-simply/</loc>
+    <loc>http://localhost:1313/news/explain-simply/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/blogs/control-the-future/</loc>
+    <loc>http://localhost:1313/blogs/control-the--future/</loc>
     <lastmod>2020-11-24T17:35:00+05:30</lastmod>
   </url><url>
-    <loc>https://hugo-blog-zeta-ten.vercel.app/blogs/statistical-sanity/</loc>
+    <loc>http://localhost:1313/blogs/statistical-sanity/</loc>
     <lastmod>2018-12-29T00:00:00+00:00</lastmod>
   </url>
 </urlset>

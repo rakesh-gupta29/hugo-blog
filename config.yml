@@ -1,7 +1,5 @@
 baseURL: "https://hugo-blog-zeta-ten.vercel.app/"
 languageCode: "en-us"
-defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: true
 
 paginate: 10
 title: "blog website with hugo and tailwind css"
